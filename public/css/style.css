@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+}
+
+
+body{
+    background-image: url(/img/svg.png);
+    background-size: 100% 100vh;
+}
+
+.container{
+    height: 500px;
+}
+.form-control {
+
+    width:88%;
+    height: 59px;
+    display: inline;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+.form-group {
+    margin: 20% 0;
+}
+.img-generated{
+    display: block;
+    width: 350px;
+    height: 350px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+}
+.fa-github{
+    color: white;
+}
+ h1{
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 10rem;
+    cursor: pointer;
+}
+
+/* CSS */
+.button-43 {
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    float: right;
+    font-size: 1.1rem;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    width: 10%;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-43:hover {
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+  }
+  
+  @media (max-width: 1000px) {
+    .button-43 {
+      float: none;
+      margin: 2rem auto;
+      width: auto;
+    }
+
+    .form-control{
+        width: 100%;
+    }
+
+    .img-generated{
+        width: 200px;
+        height: 200px;
+    }
+  }
